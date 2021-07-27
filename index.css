@@ -45,18 +45,18 @@ ul{
      font-size: 0.7rem;
      text-transform: uppercase;
      font-weight: 500;
-     color:white;
+     color:#AC3B61;
      letter-spacing: 1px;
      transition: 0.6s ease;
  }
  nav ul li a:hover{
-     border-bottom: 2px solid #00e9a5;
+     border-bottom: 2px solid #AC3B61;
      box-shadow: (5px 10px 30px rgba,255,128,0.4);
  }
- .active{
-     border-bottom: 2px solid #00e9a5;
-     box-shadow: 5px 10px 30px rgba(#00e9a5);
- }
+ /* .active{
+     border-bottom: 2px solid #AC3B61;
+     box-shadow: 5px 10px 30px rgba(#AC3B61); */
+ /* } */
  #header{
      width: 100%;
      height: 768px;
@@ -129,27 +129,34 @@ ul{
 .about-text h2 span{
     color: #00e9a5;
 }
-.about-text h3{
+/* .about-text h3{
     color: #00ff73;
-}
+} */
 .about-text p{
     color: #c0c0c0;
     width: 500px;
 } 
 #work{
     width: 100%;
-    height: 140vh;
+    height: 120vh;
     display: flex;
     box-sizing: border-box;
     align-items: center;
     justify-content:center ;
     flex-direction: column;
-    padding: 40px 0px;
+    padding: 0px 0px;
+    background-color:white;
+
+
 }
 .work-container{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.work-heading h1{
+    text-align: center;
+    color:#AC3B61 ;
 }
 .work-box{
     background-color: #fff;
@@ -190,13 +197,24 @@ ul{
     color:black;
 }
 #contact{
-    width: 100%;
+    width: 40%;
+    height: 40vh;
     display: flex;
-    align-items: center;
+    text-align: center;
     justify-content: center;
     flex-direction: column;
-    padding: 40px 0px;
+    padding: 50px 0px;
     background: #1e1e1e;
+
+   
+}
+.work-heading p1{
+    display: flex; 
+    align-items:flex-end; 
+    justify-content: space-around;
+    display: inline-block;
+    padding: 150px;
+    inline-size: 5px;
 }
 /* #contact form{
     width: 600px;
